@@ -7,11 +7,12 @@
 		<meta name="keywords" content="html5, yurak, arequipa">
 		<title>Formulario de Ingreso</title>
         <style></style>
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
 			<h1>Título Principal</h1>
-			<h2>Mensaje</h2>
+			<h2 class="subtitulo">Mensaje</h2>
 			<!-- h1 .... h6 -->
 		</header>
 		<nav>
@@ -19,14 +20,17 @@
 			Inicio | Nosotros | Fotos | Blog | contacto
 		</nav>
 		<main>
-			<h2>Nuevo Formulario</h2>
+			<h2 id="nuevoForm">Nuevo Formulario</h2>
 			<form action="">
                 <fieldset>
                     <input name="form_email" type="email" placeholder="Email" required><br>
                     <input name="form_pass" type="password" placeholder="Password" required><br>
-                    <input name="form_cpass" type="password" placeholder="Confirm Password" required>
+                    <input name="form_cpass" type="password" placeholder="Confirm Password" required><br>
+                    <div>
+                        <button>Next</button>
+                    </div>
                 </fieldset>
-                <button style="color:green">Next</button>
+
             </form>
 		</main>
 		
