@@ -1,0 +1,53 @@
+h2{
+    font-weight: bold;
+    color: blue;
+
+}
+
+.subtitulo{
+    color: green;
+}
+
+#nuevoForm{
+
+    color: red;
+}
+
+[name="form_email"]{
+    color: peru;
+
+}
+
+/* ul li:nth-child(2){
+    color:blue;
+} */
+
+button{
+    background-color: green;
+    color: white;
+
+}
+
+input{
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+}
+
+button{
+    height: 1cm;
+    width: 100px;
+    border-radius: 5px;
+}
+
+main{
+    height: auto;
+    width: 300px;
+}
+
+div{
+    text-align: center;
+}
